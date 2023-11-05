@@ -1,0 +1,67 @@
+name: Build and deploy
+on:
+  push:
+    branches:
+      -  main
+jobs:
+  build:
+    name: Build ⛏
+    runs-on: macos-latest
+#     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@main
+      - name: Set Node.js 17
+        uses: actions/setup-node@v2
+        with:
+          node-version: '17.9.1'
+      # - name: Run install with yarn
+      #   uses: borales/actions-yarn@v4
+      #   with:
+      #     cmd: install # will run `yarn install` command
+      - name: Node version checking...
+        run: node -v
+      - name: Install dependencies
+        # run: |
+        #   if [ -e yarn.lock ]; then
+        #   yarn install --frozen-lockfile
+        #   elif [ -e package-lock.json ]; then
+        #   npm ci
+        #   else
+        #   npm i
+        #   fi
+        run: npm ci
+      - name: Build with npm
+        run: CI=false npm run build
+      # - name: Build production with yarn
+      #   uses: borales/actions-yarn@v4
+      #   with:
+      #     cmd: build # will run `yarn build` command
+      - name: Archive production artifact
+        uses: actions/upload-artifact@main
+        with:
+          name: build
+          path: dist
+  deploy:
+    name: Deploy 🚀
+    needs: build
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout repository
+        uses: actions/checkout@main
+      - name: Download artifact
+        uses: actions/download-artifact@main
+        with: 
+          name: build
+          path: dist
+      - name: Sync files to hosting
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        with: 
+          timeout_minutes : 3
+          max_attempts : 3
+          server: 203.146.252.149
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: 21
+          local-dir: ./dist/
+          server-dir : /
