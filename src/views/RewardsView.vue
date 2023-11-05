@@ -8,7 +8,7 @@
           <span class="text-success d-inline mt-5">Rewards</span>
         </h1>
       </div>
-      <div class="row gx-5 justify-content-center"></div>
+      <div class="row gx-5 justify-content-center">soon...</div>
     </div>
   </div>
 </template>
