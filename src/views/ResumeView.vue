@@ -21,7 +21,7 @@
               <!-- Note: Set the link href target to a PDF file within your project-->
               <button class="btn btn-success px-4 py-3" disabled>
                 <div class="d-inline-block bi bi-download me-2"></div>
-                Download Resume ( soon... )
+                Download Resume ( soon.... )
               </button>
             </div>
             <!-- Experience Card 1-->
