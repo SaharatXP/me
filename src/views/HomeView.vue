@@ -13,7 +13,7 @@
             <a
               class="btn btn-outline-primary fw-bolder w-100"
               href="/resume"
-              style="font-size: 30px"
+              style="font-size: 30px; box-shadow: 5px 5px"
               >Resume</a
             >
           </div>
@@ -21,14 +21,14 @@
             <a
               class="btn btn-outline-success fw-bolder w-100"
               href="/rewards"
-              style="font-size: 30px"
+              style="font-size: 30px; box-shadow: 5px 5px"
               >Rewards</a
             >
           </div>
           <div class="col-xl-4 sm-1 mt-2">
             <a
               class="btn btn-outline-dark fw-bolder w-100"
-              style="font-size: 30px"
+              style="font-size: 30px; box-shadow: 5px 5px"
               href="/projects"
               >Projects</a
             >
