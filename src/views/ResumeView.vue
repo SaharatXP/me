@@ -21,7 +21,7 @@
               <!-- Note: Set the link href target to a PDF file within your project-->
               <button class="btn btn-success px-4 py-3" disabled>
                 <div class="d-inline-block bi bi-download me-2"></div>
-                Download Resume ( soon.... )
+                Download Resume ( soon... )
               </button>
             </div>
             <!-- Experience Card 1-->
@@ -43,11 +43,23 @@
                       <div class="text-muted">
                         Bank of ayudhya public company limited [ATCAL]
                       </div>
-                      <div class="text-muted">Khonkaen, Thailand</div>
+                      <div class="text-muted">WFH & Bangkok, Thailand</div>
                     </div>
                   </div>
                   <div class="col-lg-8 text-left">
                     <div class="text-left">
+                      Design Test Case and create Automate , Pipeline for deploy
+                      system. <br />
+                      Research Test solution ( Agile Testing ) automte test,
+                      manual test, test pyramid to share with all qa squad.
+                      <br />
+                      Support deployment and SIT/UAT with users. <br />
+                      Troubleshoot teams that need help with automate testing or
+                      other issues with dev tools. <br />
+                      Build a starter kit for integration test , smoke test
+                      system.
+
+                      <br /><br />
                       - Flutter integration Automate Testing <br />
                       - Manual Testing <br />
                       - Appium Automate Test <br />
@@ -74,11 +86,26 @@
                   </div>
                   <div class="col-lg-8 text-left">
                     <div class="text-left">
-                      Tools : vs code, chrome, edge, postman , git , docker
+                      <h5>DMS ( Dealer Management System )</h5>
+                      เป็นระบบที่ช่วยจัดการของศูนย์บริการและดีลเลอร์
+                      สามารถแบ่งได้หลายส่วนในระบบ เช่น <br />
+                      - ส่วนของฝ่ายลูกค้า (CRM) เพื่อจัดการการนัดหมาย (
+                      Appointment System ) ผ่าน Line Official Account
+                      และตรวจสอบการเช้าเช็คระยะการเข้ารับบริการ <br />
+                      - ส่วนศูนย์บริการซ่อมสีและตัวถัง ( Service Body and Paint
+                      ) : จัดการงานซ่่อม( Job ) ให้กัับช่างในศูนย์บริการ
+                      พร้อมทั้งการส่งงานไปให้กับฝ่ายงานต่าง ๆ<br />
+                      - ส่วนของระบบการขาย ( Sales and Stock ) :
+                      จัดการส่วนงานของสต๊อก พร้อมทั้งการรับเข้า และจ่ายออก
+                      รวมไปถึงการจองรถ และปิดงานขายให้กับลูกค้า <br />
+                      <br /><br />
+                      Tools : vs code, chrome, figma, trello , monday , postman
+                      , git , docker, GCP
                       <br />
                       Programming Languages : Html, css, Javascript, Node.Js,
                       PHP , Dart <br />
                       Framework : Laravel framework , Vue.js , Nest.js , nuxt.js
+                      <br />
                     </div>
                   </div>
                 </div>
@@ -173,7 +200,7 @@
                 <div class="mb-5">
                   <div class="d-flex align-items-center mb-4">
                     <div
-                      class="feature bg-success bg-gradient-success-to-secondary text-white rounded-3 me-3"
+                      class="feature bg-success bg-gradient-success-to-secondary text-white rounded-1 me-3"
                     >
                       <i class="bi bi-file-earmark-person-fill"></i>
                     </div>
@@ -181,7 +208,7 @@
                       <span class="text-gradient d-inline">About Me</span>
                     </h3>
                   </div>
-                  <div class="row row-cols-1 row-cols-md-1 mb-4">
+                  <div class="row row-cols-1 row-cols-md-2 mb-4">
                     <div
                       class="col mb-4 mb-md-4 text-center"
                       v-for="item in about_options"
@@ -198,7 +225,7 @@
                 <div class="mb-5">
                   <div class="d-flex align-items-center mb-4">
                     <div
-                      class="feature bg-success bg-gradient-success-to-secondary text-white rounded-3 me-3"
+                      class="feature bg-success bg-gradient-success-to-secondary text-white rounded-1 me-3"
                     >
                       <i class="bi bi-tools"></i>
                     </div>
@@ -223,7 +250,7 @@
                 <div class="mb-0">
                   <div class="d-flex align-items-center mb-4">
                     <div
-                      class="feature bg-success bg-gradient-success-to-secondary text-white rounded-3 me-3"
+                      class="feature bg-success bg-gradient-success-to-secondary text-white rounded-1 me-3"
                     >
                       <i class="bi bi-code-slash"></i>
                     </div>
@@ -249,7 +276,7 @@
                 <div class="mb-0">
                   <div class="d-flex align-items-center mb-4">
                     <div
-                      class="feature bg-success bg-gradient-success-to-secondary text-white rounded-3 me-3"
+                      class="feature bg-success bg-gradient-success-to-secondary text-white rounded-1 me-3"
                     >
                       <i class="bi bi-android2"></i>
                     </div>
@@ -275,7 +302,7 @@
                 <div class="mb-0">
                   <div class="d-flex align-items-center mb-4">
                     <div
-                      class="feature bg-success bg-gradient-success-to-secondary text-white rounded-3 me-3"
+                      class="feature bg-success bg-gradient-success-to-secondary text-white rounded-1 me-3"
                     >
                       <i class="bi bi-boombox-fill"></i>
                     </div>
@@ -354,7 +381,7 @@ export default {
         {
           topic: "คติ",
           detail:
-            "สิ่งเดียวที่จะกำหนัดชะตาชีวิตฉัน ไม่ใช่โชคชะตา แต่เป็นตัวฉันเอง",
+            "สิ่งเดียวที่จะกำหนดชะตาชีวิตฉัน ไม่ใช่โชคชะตา แต่เป็นตัวฉันเอง",
         },
       ],
       skills_option: [

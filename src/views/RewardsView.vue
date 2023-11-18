@@ -8,7 +8,140 @@
           <span class="text-success d-inline mt-5">Rewards</span>
         </h1>
       </div>
-      <div class="row gx-5 justify-content-center">soon...</div>
+      <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="nav nav-pills">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Startup Rewards</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#scrollspyHeadingStartup1"
+                  >Startup Thailand league</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#scrollspyHeadingSibb"
+                  >SIBB Global connect</a
+                >
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="#scrollspyHeadingGetAndGo"
+                  >30 hr. Get&Go Program 2020</a
+                >
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="#scrollspyHeadingBB"
+                  >Business Brotherhood</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeadingUni"
+              >University Rewards</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#navbar-example2"
+        data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true"
+        class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+        tabindex="0"
+      >
+        <h4 id="scrollspyHeadingStartup1">รายการ Startup Thailand league</h4>
+        <div class="row mt-5">
+          <div class="col-xl-4">
+            <img
+              src="../assets/reward/startup/stl1.jpg"
+              alt=""
+              class="w-100 rounded"
+            />
+          </div>
+          <div class="col-xl-8">
+            <img
+              src="../assets/reward/startup/stl2.jpg"
+              alt=""
+              class="w-100 rounded"
+            />
+          </div>
+        </div>
+
+        <hr />
+        <h4 id="scrollspyHeadingSibb">รายการ SIBB Global connect</h4>
+        <div class="row mt-5">
+          <div class="col-xl-4">
+            <img
+              src="../assets/reward/startup/Sibb1.jpg"
+              alt=""
+              class="w-100 rounded"
+            />
+          </div>
+          <div class="col-xl-8">
+            <img
+              src="../assets/reward/startup/Sibb2.jpg"
+              alt=""
+              class="w-100 rounded"
+            />
+          </div>
+        </div>
+
+        <hr />
+        <h4 id="scrollspyHeadingGetAndGo">รายการ 30 hr. Get&Go Program 2020</h4>
+        <div class="row mt-5">
+          <div class="col-xl-8">
+            <img
+              src="../assets/reward/startup/30.jpg"
+              alt=""
+              class="w-100 rounded"
+            />
+          </div>
+        </div>
+        <hr />
+        <h4 id="scrollspyHeadingBB">รายการ Business Brotherhood</h4>
+        <div class="row mt-5">
+          <div class="col-xl-8">
+            <img
+              src="../assets/reward/startup/bb.jpg"
+              alt=""
+              class="w-50 rounded"
+            />
+          </div>
+        </div>
+        <hr />
+
+        <h4 id="scrollspyHeadingUni">รางวัลระดับมหาลัย</h4>
+
+        - รางวัลนักศึกษาดีเด่น สาขาวิชา วิทยาการคอมพิวเตอร์ ปีการศึกษา 2562
+        <br />
+        - รางวัลเชิดชูเกียรติด้านนวัตกรรม คณะวิทยาศาสตร์ ปีการศึกษา 2563 <br />
+        - รางวัลเชิดชูเกียรติ กาลพฤกษ์ด้านนวัตกรรม และสิ่งประดิษฐ์ ปีการศึกษา
+        2563<br />
+        - รางวัลสร้างชื่อเสียงให้กับคณะวิทยาศาสตร์ ปีการศึกษา 2563 <br />
+        - รางวัลนำเสนอผลงานแบบโพสเตอร์ ระดับดีเยี่ยม งานประชุมวิชาการ ครั้งที่
+        27<br />
+
+        <div class="row mt-5">
+          <div class="col-xl-8">
+            <img
+              src="../assets/reward/university/u1.jpg"
+              alt=""
+              class="w-100 rounded"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
