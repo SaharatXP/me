@@ -8,7 +8,7 @@
           <span class="text-success d-inline mt-5">Rewards</span>
         </h1>
       </div>
-      <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+      <nav id="navbar-example2 " class="navbar bg-body-tertiary px-3 mb-3">
         <a class="navbar-brand" href="#"></a>
         <ul class="nav nav-pills">
           <li class="nav-item dropdown">
@@ -138,11 +138,11 @@
           >click [ทีม KKU]</a
         >
         <div class="row mt-5">
-          <div class="col-xl-8">
+          <div class="col-xl-4 col-sm-12">
             <img
               src="../assets/reward/startup/bb.jpg"
               alt=""
-              class="w-50 rounded"
+              class="w-100 sm-w-100 rounded"
             />
           </div>
         </div>
