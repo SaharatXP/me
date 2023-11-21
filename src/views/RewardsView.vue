@@ -61,6 +61,16 @@
         tabindex="0"
       >
         <h4 id="scrollspyHeadingStartup1">รายการ Startup Thailand league</h4>
+        ref:
+        <a href="https://www.khonkaenuniversity.in.th/33636/" target="_blank"
+          >click</a
+        ><br />
+        video ref :
+        <a
+          href="https://youtu.be/sZhSNxY4mt8?si=Pjh2h2OPzGIQ5MdI"
+          target="_blank"
+          >click</a
+        >
         <div class="row mt-5">
           <div class="col-xl-4">
             <img
@@ -80,6 +90,17 @@
 
         <hr />
         <h4 id="scrollspyHeadingSibb">รายการ SIBB Global connect</h4>
+        ref :
+        <a
+          href="https://www.facebook.com/KKUSP/posts/3394276200616391/"
+          target="_blank"
+          >link 1 click</a
+        >,
+        <a
+          href="https://www.facebook.com/KKUSP/posts/3322168217827190/?locale=th_TH"
+          target="_blank"
+          >link 2 click</a
+        >
         <div class="row mt-5">
           <div class="col-xl-4">
             <img
@@ -110,6 +131,12 @@
         </div>
         <hr />
         <h4 id="scrollspyHeadingBB">รายการ Business Brotherhood</h4>
+        ref :
+        <a
+          href="https://www.facebook.com/KKUSP/photos/a.124964104214300/3187308404646506/?locale=th_TH"
+          target="_blank"
+          >click [ทีม KKU]</a
+        >
         <div class="row mt-5">
           <div class="col-xl-8">
             <img
@@ -122,6 +149,18 @@
         <hr />
 
         <h4 id="scrollspyHeadingUni">รางวัลระดับมหาลัย</h4>
+        ref :
+        <a
+          href="https://e.sc.kku.ac.th/sci-eoffice/thesis/file/2020Aug25113355.pdf"
+          target="_blank"
+        >
+          click
+        </a>
+        ,
+        <a href="https://dms.kku.ac.th/file/download/pub/49171" target="_blank"
+          >click [2]</a
+        >
+        <br />
 
         - รางวัลนักศึกษาดีเด่น สาขาวิชา วิทยาการคอมพิวเตอร์ ปีการศึกษา 2562
         <br />
