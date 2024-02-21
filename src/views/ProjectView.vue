@@ -51,8 +51,8 @@
                     <br />
                     website ระบบหน้าบ้าน :
                     <a href="https://slmsale.devshr.com/" target="_blank"
-                      >slmsale.devshr.com</a
-                    >
+                      >slmsale.devshr.com [PC only]
+                    </a>
                     <br />
                     ระบบหลังบ้าน :
                     <a href="/projects" target="_blank" style="color: red"

@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('../fonts/LINESeedSansTH_W_Bd.woff2') format('woff2'),
+       url('../fonts/LINESeedSansTH_W_Bd.woff') format('woff');
+}
