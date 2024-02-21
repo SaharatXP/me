@@ -19,10 +19,32 @@
               </h2>
               <!-- Download resume button-->
               <!-- Note: Set the link href target to a PDF file within your project-->
-              <button class="btn btn-success px-4 py-3" disabled>
+              <!-- <button class="btn btn-success px-4 py-3" disabled>
                 <div class="d-inline-block bi bi-download me-2"></div>
                 Download Resume ( soon... )
-              </button>
+              </button> -->
+
+              <!-- Example single danger button -->
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-success dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Download
+                </button>
+                <ul class="dropdown-menu">
+                  <li v-for="item in pdfx">
+                    <button
+                      @click="downloadPDF(item.path_name)"
+                      class="dropdown-item"
+                    >
+                      {{ item.name_style }}
+                    </button>
+                  </li>
+                </ul>
+              </div>
             </div>
             <!-- Experience Card 1-->
             <div class="card shadow border-0 rounded-4 mb-5">
@@ -339,8 +361,44 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 import NavCompo from "@/components/Nav.vue";
 export default {
+  methods: {
+    downloadPDF(path) {
+      // Replace 'your_pdf_file.pdf' with the actual filename of your PDF file
+      const fileName = path;
+      const filePath = `/pdf/${fileName}`; // Update the path if needed
+
+      // Create an anchor element
+      const link = document.createElement("a");
+      link.href = filePath; // Directly use the relative file path
+      link.download = fileName;
+
+      // Append the anchor element to the body
+      document.body.appendChild(link);
+
+      // Trigger a click event to initiate download
+      link.click();
+
+      // Clean up - remove the anchor element
+      document.body.removeChild(link);
+    },
+  },
   data() {
     return {
+      pdfx: [
+        {
+          name_style: "Developer Style",
+          path_name: "Resume_Saharat_Dev_style.pdf",
+        },
+        {
+          name_style: "CV Style",
+          path_name: "CV_SAHARAT.pdf",
+        },
+        {
+          name_style: "Normal Style",
+          path_name: "Resume_Saharat_Normal_style.pdf",
+        },
+      ],
+      // pdfUrl: "../assets/resume/Resume_Saharat_Dev_style.pdfxs",
       about_options: [
         {
           topic: "Name [EN]",
